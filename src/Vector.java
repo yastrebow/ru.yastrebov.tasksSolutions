@@ -37,11 +37,13 @@ public class Vector {
            this.z = z;
         }
         public double length(){
+
         return Math.sqrt(x*x + y*y + z*z);
         }
 
         public double scalarProduct(Vector vector) {
-            return x * vector.x + y * vector.y + z * vector.z;
+
+        return x * vector.x + y * vector.y + z * vector.z;
         }
 
         public Vector crossProduct(Vector vector) {
@@ -51,7 +53,8 @@ public class Vector {
         }
 
         public double angleBetween(Vector vector) {
-            return scalarProduct(vector) / (length() * vector.length());
+
+        return scalarProduct(vector) / (length() * vector.length());
         }
 
         public Vector sum(Vector vector) {

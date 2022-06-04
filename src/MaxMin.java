@@ -11,7 +11,7 @@ public class MaxMin {
     }
     double min = 1;
     double max = 0;
-    double avg = 0;
+    double avg;
     double sum = 0;
 
     for (int i=0; i < array.length; i++) {

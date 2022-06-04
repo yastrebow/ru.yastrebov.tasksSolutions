@@ -30,7 +30,7 @@ public class Lotery {
                 System.out.println("You Win!!!");
                 break;
             default:
-                System.out.println("May be next time!");
+                System.out.println("May be next time you will be lucky!");
                 break;
 
 
